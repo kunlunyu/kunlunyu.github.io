@@ -1,0 +1,47 @@
+.title{
+    width:100%;
+    height: 1rem;
+    display: flex;
+}
+.title>div{
+    width: 50%;
+    height:100%;
+    background: #ccc;
+    text-align: center;
+    line-height: 1rem;
+    color: #fff;
+    font-size: .48rem;
+}
+.title .active{
+    background: #16ccff;
+    color: #fbff14;
+}
+.content{
+    width: 100%;
+    height: auto;
+    background: orange;
+    margin-top: .4rem;
+}
+.content>div{
+    display: none;
+}
+.content>div>div{
+    width: 100%;
+    height: 1rem;
+    display: flex;
+}
+.content>div .left,.content>div .right{
+    width: 50%;
+    height: 100%;
+    font-size: .28rem;
+    line-height: .5rem;
+    text-align: center;
+    color: #fff;
+}
+.content .active p{
+    color: fuchsia;
+}
+.content .active{
+    display: block;
+}
+
